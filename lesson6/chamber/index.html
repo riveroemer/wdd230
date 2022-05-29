@@ -72,10 +72,11 @@
         <div class="weather">
             <h2>Weather</h2>
             <img src = "images/sun.png" alt="weather">
-            <h2 class="temp-text">30°C</h2>
-            <p>Sunny</p>
-            <p>Wind Speed: 1.5 km/h</p>
-            <p>Wind Chill: 10</p>
+            <p class="temperature"><span class="temp">10</span>&deg;<span class="degOrFahr">C</span></p>
+                    <p>Partly Cloudy</p>
+                    <p>Wind:&nbsp; &nbsp; <span class="wind">2.5</span>km/h</p>
+                    <p>Wind Chill:&nbsp; &nbsp;<span class="windFactor">N/A</span>&deg;<span class="fahr"></span></p>
+            
         </div>
         <div class="join">
             <button class="join-btn">Join Us</button>
@@ -116,5 +117,6 @@
         <p>Last Updated: <span class="last_updated"></span></p>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
