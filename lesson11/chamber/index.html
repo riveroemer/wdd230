@@ -35,11 +35,11 @@
         <nav>
             <button id="menu-btn" onclick="toggleMenu();"><span>&#9776;</span><span>X</span></button>
             <ul class="navigation" id="primaryNav">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../discover/discover.html">Discover</a></li>
-                <li><a href="../directory/directory.html">Directory</a></li>
-                <li><a href="../join/join.html">Join</a></li>
-                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="../chamber/index.html">Home</a></li>
+                <li><a href="../chamber/discover/discover.html">Discover</a></li>
+                <li><a href="../chamber/directory/directory.html">Directory</a></li>
+                <li><a href="../chamber/join/join.html">Join</a></li>
+                <li><a href="../chamber/contact/contact.html">Contact</a></li>
             </ul>
             <p class="date">test</p>
         </nav>
@@ -53,9 +53,8 @@
         <div class="hero">
 
             <h2 id="hero-title">Welcome to Kanasin</h2>
-            <a href="../chamber/join/join.html">
-            <button class="hero-cta">Join Chamber</button>
-            </a>    
+            <!--<button class="hero-cta">Join Chamber</button>-->    
+            <a href="../chamber/join/join.html" class="hero-cta">Join chamber</a>   
             
             <picture>
                 <source media="(min-width: 60em)" srcset="images/wdd230-org1000.jpg">
@@ -79,7 +78,7 @@
         <div class="weather">
             <h2>Weather</h2>
             <picture>
-                <img src="" alt="" id="weather-icon">
+                <img id="weather-icon">
             </picture>
             <p id="caption"></p>
             <p id="temperature"> <span id="current-temp"></span> &deg;C</p>
@@ -87,9 +86,10 @@
             <p id="wind2">Wind Chill: <span id="fw">N/A</span></p>
         </div>
         <div class="join">
-        <a href="../chamber/join/join.html">
+            <a href="../chamber/join/join.html" class="join-btn">Join us</a>
+        <!--<a href="../chamber/join/join.html">
         <button class="join-btn">Join us</button>
-        </a>
+        </a>-->
             <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
         <div class="spotlight1">
